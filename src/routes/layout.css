@@ -2,14 +2,10 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-	--color-istq: #171a64;
-	--color-istq-lighter: #26288b;
-	--color-istq-orange-darker: #b7860f;
-	--color-istq-orange: #efbb4a;
-	--color-istq-green-darker: #078f5b;
-	--color-istq-green: #acce22;
-	--color-istq-white: #d8d8f3;
-	--color-istq-black: #09091d;
+	--color-higive-primary: #00B0A6;
+	--color-higive-secondary: #F9D43C;
+	--color-higive-white: #d8d8f3;
+	--color-higive-black: #09091d;
 
 	--font-poppins: 'Poppins', 'sans-serif';
 }
@@ -19,12 +15,12 @@ html {
 }
 
 *::selection {
-	@apply bg-istq-green-darker text-white;
+	@apply bg-higive-primary text-white;
 }
 
 #nprogress {
 	pointer-events: none;
 }
 #nprogress .bar {
-	@apply bg-istq-green-darker! fixed! z-100! top-0! left-0! w-full! h-[3px]!;
+	@apply bg-higive-primary! fixed! z-100! top-0! left-0! w-full! h-[3px]!;
 }
