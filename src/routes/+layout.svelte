@@ -19,6 +19,7 @@
 	import '@fontsource/poppins/700.css';
 	import '@fontsource/poppins/800.css';
 	import '@fontsource/poppins/900.css';
+	import '@fontsource-variable/baloo-tamma-2';
 	import UnderConstruction from '@/partials/UnderConstruction.svelte';
 
 	let { children } = $props();

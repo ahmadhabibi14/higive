@@ -1,17 +1,19 @@
 @import 'tailwindcss';
-@plugin '@tailwindcss/typography';
+@import '@fontsource-variable/baloo-tamma-2';
 
 @theme {
 	--color-higive-primary: #00B0A6;
+	--color-higive-primary-2: #34A887;
 	--color-higive-secondary: #F9D43C;
 	--color-higive-white: #d8d8f3;
 	--color-higive-black: #09091d;
 
 	--font-poppins: 'Poppins', 'sans-serif';
+	--font-baloo: 'Baloo Tamma 2 Variable', 'system-ui';
 }
 
 html {
-	@apply font-poppins scroll-smooth;
+	@apply font-baloo scroll-smooth;
 }
 
 *::selection {

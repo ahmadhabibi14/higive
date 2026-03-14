@@ -42,8 +42,8 @@
 		"vite": "^7.2.2"
 	},
 	"dependencies": {
+		"@fontsource-variable/baloo-tamma-2": "^5.2.8",
 		"@fontsource/poppins": "^5.2.7",
-		"@tailwindcss/typography": "^0.5.19",
 		"nprogress": "^0.2.0",
 		"svelte-carousel": "^1.0.25",
 		"svelte-icons-pack": "^3.1.3"
