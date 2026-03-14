@@ -6,7 +6,7 @@
 	import { RiBusinessGlobalLine, RiLogosInstagramLine } from 'svelte-icons-pack/ri';
 </script>
 
-<Head title="Higive" description="Higive" />
+<Head />
 
 <div class="h-auto w-full flex flex-col max-w-full">
 	<section class="relative h-[700px] overflow-hidden">
