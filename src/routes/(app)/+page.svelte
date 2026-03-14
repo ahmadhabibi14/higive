@@ -42,18 +42,19 @@
 		>
 			<div class="flex flex-row justify-between">
 				<div
-					class="bg-white pt-6 pb-8 pl-10 pr-20 rounded-br-full
-			h-fit w-fit"
-				>
-					<img src="/logo/logo-text.png" alt="Main Logo" class="h-16 w-auto object-contain" />
-				</div>
-				<div
-					class="flex flex-col gap-0 pt-7 pr-10 justify-center items-center
+					class="flex flex-col gap-0 pt-7 pl-10 justify-center items-center
 			text-4xl text-white font-bold"
 				>
 					<span>Program</span>
 					<span>Ramadhan</span>
 					<span>1447 H</span>
+				</div>
+
+				<div
+					class="bg-white pt-6 pb-8 pr-10 pl-20 rounded-bl-full
+			h-fit w-fit"
+				>
+					<img src="/logo/logo-text.png" alt="Main Logo" class="h-16 w-auto object-contain" />
 				</div>
 			</div>
 			<div class="flex justify-center">
