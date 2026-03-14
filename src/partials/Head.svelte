@@ -32,7 +32,7 @@
 	<meta property="og:image:width" content={imgWidth} />
 	<meta property="og:image:height" content={imgHeight} />
 	<meta property="og:image:alt" content={title} />
-	<meta property="og:see_also" content="https://www.instagram.com/pondok_yatim_istiqomah" />
+	<meta property="og:see_also" content="https://www.instagram.com/higiveindonesia" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={title} />
