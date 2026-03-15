@@ -51,7 +51,7 @@
 </script>
 
 {#if $UNDER_CONSTRUCTION}
-	<Head title="Under Construction - Jayakarta Halal Center" />
+	<Head title="Under Construction - HiGive" />
 	<UnderConstruction />
 {:else}
 	{@render children()}

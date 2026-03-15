@@ -6,7 +6,7 @@
 
 Assalamaualaikum wr. wb.
 Saya mau berdonasi`;
-	const whatsappUrl: string = `https://wa.me/6281213339923?text=${encodeURIComponent(message)}`;
+	const whatsappUrl: string = `https://wa.me/6285119903605?text=${encodeURIComponent(message)}`;
 </script>
 
 <div class="fixed bottom-5 right-5 z-100 flex md:hidden justify-end w-30 h-30">

@@ -32,10 +32,7 @@
 
 	let nominalTambahan: number = $state(0);
 
-	let totalDonasi: number = $state(0);
-	$effect(() => {
-		totalDonasi = nominalDonasi + nominalTambahan;
-	});
+	let totalDonasi = $derived(nominalDonasi + nominalTambahan);
 
 	const handleSubmit = () => {
 		if (

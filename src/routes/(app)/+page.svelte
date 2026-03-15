@@ -65,7 +65,7 @@
 		</div>
 		<div
 			class="h-[600px] overflow-hidden w-full
-	flex flex-col justify-between md:justify-start md:gap-0 pb-20 absolute z-2"
+	flex flex-col justify-start md:gap-0 gap-20 pb-20 absolute z-2"
 		>
 			<div class="flex flex-row justify-between">
 				<div

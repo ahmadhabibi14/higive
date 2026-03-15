@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { SiteName, SiteDesc, SiteBaseUrl, SiteImageUrl, SiteAuthor } from '../lib/constant';
+	import { SiteName, SiteDesc, SiteBaseUrl, SiteImageUrl, SiteAuthor } from '@/lib/constant';
 
 	export let title: string = SiteName;
 	export let path: string = '';
