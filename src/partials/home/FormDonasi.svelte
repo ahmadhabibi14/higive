@@ -52,7 +52,7 @@ Alamat: ${alamat}
 No. Telepon: ${noTelepon}
 Program: ${program.map((p) => p.name).join(', ')}
 Nominal Donasi: Rp. ${nominalDonasi.toLocaleString('id-ID')}
-Nominal Tambahan: Rp. ${nominalTambahan.toLocaleString('id-ID')}
+Donasi Lainnya: Rp. ${nominalTambahan.toLocaleString('id-ID')}
 Total Donasi: Rp. ${(nominalDonasi + nominalTambahan).toLocaleString('id-ID')}
 Rekening Tujuan: ${rekening}`;
 
@@ -95,7 +95,7 @@ Rekening Tujuan: ${rekening}`;
 				/>
 			</div>
 			<div class="flex flex-col gap-1.5 w-full">
-				<label for="telepon" class="text-sm ml-2 text-gray-600">No. Telepon</label>
+				<label for="telepon" class="text-sm ml-2 text-gray-600">HP / Telp.</label>
 				<input
 					id="telepon"
 					placeholder="081234567890"
@@ -174,7 +174,7 @@ Rekening Tujuan: ${rekening}`;
 				/>
 			</div>
 			<div class="flex flex-col gap-1.5 w-full">
-				<label for="nominalTambahan" class="text-sm ml-2 text-gray-600">Nominal Tambahan</label>
+				<label for="nominalTambahan" class="text-sm ml-2 text-gray-600">Donasi Lainnya</label>
 				<input
 					id="nominalTambahan"
 					placeholder="100000"
