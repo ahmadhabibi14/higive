@@ -66,7 +66,7 @@ Rekening Tujuan: ${rekening}`;
 	<div class="flex flex-col gap-6 md:w-8/12 w-full mx-auto px-4 md:px-0">
 		<div class="flex justify-center items-center">
 			<div
-				class="text-5xl font-bold text-center w-fit
+				class="text-4xl md:text-5xl font-bold text-center w-fit
 		bg-higive-secondary text-higive-black py-2 px-6 rounded-lg
 		flex items-center justify-center"
 			>

@@ -8,8 +8,8 @@
 
 <Head />
 
-<div class="h-auto w-full flex flex-col max-w-full">
-	<section class="relative h-[700px] overflow-hidden">
+<div class="h-auto w-full flex flex-col max-w-full right-0 left-0">
+	<section class="relative h-[600px] md:h-[700px] overflow-hidden">
 		<div class="absolute z-1 w-full h-auto top-0">
 			<svg
 				class="block md:hidden"
@@ -69,8 +69,8 @@
 		>
 			<div class="flex flex-row justify-between">
 				<div
-					class="flex flex-col gap-0 pt-7 pl-10 justify-center items-center
-			text-4xl text-white font-bold"
+					class="flex flex-col gap-0 pt-7 md:pl-10 pl-4 justify-center items-center
+			md:text-4xl text-3xl text-white font-bold"
 				>
 					<span>Program</span>
 					<span>Ramadhan</span>
@@ -99,7 +99,7 @@
 		</div>
 	</section>
 
-	<section class="mt-20 mb-16 container max-w-5xl mx-auto">
+	<section class="md:mt-20 md:mb-16 mt-0 container max-w-5xl mx-auto px-4 md:px-0">
 		<div class="flex flex-col md:grid md:grid-cols-[40%_1fr] gap-6 items-center">
 			<h2 class="text-5xl font-bold text-higive-primary text-center">
 				Sedekah
@@ -107,7 +107,7 @@
 				<br />di Bulan
 				<br />Ramadhan
 			</h2>
-			<p class="text-higive-primary-2 text-4xl font-bold text-center">
+			<p class="text-higive-primary-2 text-2xl md:text-4xl font-bold text-center">
 				Rasulullah SAW bersabda: “Wahai Rasulullah, sedekah apakah yang paling utama?” Beliau
 				menjawab, “Sedekah di bulan Ramadhan.” (HR. At-Tirmidzi)
 			</p>
@@ -120,15 +120,20 @@
 
 	<section class="mt-10 bg-linear-to-b from-higive-secondary to-higive-primary py-10">
 		<div class="container max-w-5xl mx-auto px-4 md:px-0">
-			<img src="/img/tf-donasi.png" alt="Donasi" class="w-full" />
-			<div class="text-lg w-full mt-7 flex flex-row gap-7 justify-center items-center text-center">
+			<div class="w-full h-fit">
+				<img src="/img/tf-donasi.png" alt="Donasi" class="w-full h-auto object-contain" />
+			</div>
+			<div
+				class="w-full mt-7 flex flex-row gap-4 md:gap-7
+			justify-center items-center text-center text-sm md:text-lg"
+			>
 				<a
 					href="https://www.instagram.com/higiveindonesia"
 					target="_blank"
 					class="hover:underline text-white flex flex-row gap-2 items-center"
 				>
 					<div class="p-2 bg-white rounded-full">
-						<Icon src={RiLogosInstagramLine} size="24" className="fill-higive-primary" />
+						<Icon src={RiLogosInstagramLine} className="md:h-6 h-4 w-auto fill-higive-primary" />
 					</div>
 					<span>@higiveindonesia</span>
 				</a>
@@ -138,7 +143,7 @@
 					class="hover:underline text-white flex flex-row gap-2 items-center"
 				>
 					<div class="p-2 bg-white rounded-full">
-						<Icon src={RiBusinessGlobalLine} size="24" className="fill-higive-primary" />
+						<Icon src={RiBusinessGlobalLine} className="md:h-6 h-4 w-auto fill-higive-primary" />
 					</div>
 					<span>www.higive.id</span>
 				</a>

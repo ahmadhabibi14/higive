@@ -10,12 +10,13 @@ export const load: LayoutServerLoad = async (event: ServerLoadEvent) => {
 			'camera=(), microphone=(), geolocation=(), fullscreen=(), usb=(), autoplay=()',
 		'Content-Security-Policy':
 			"default-src 'self'; " +
-			"script-src 'self' 'unsafe-inline'; " +
+			"script-src 'self' 'unsafe-inline' https://connect.facebook.net https://www.facebook.com https://staticxx.facebook.com; " +
+			"script-src-elem 'self' 'unsafe-inline' https://connect.facebook.net https://www.facebook.com https://staticxx.facebook.com; " +
 			"style-src 'self' 'unsafe-inline'; " +
 			"font-src 'self'; " +
-			"img-src 'self' data:;" +
+			"img-src 'self' data: https://www.facebook.com https://staticxx.facebook.com https://connect.facebook.net;" +
 			"frame-src 'self'; " +
-			"connect-src 'self'; " +
+			"connect-src 'self' https://connect.facebook.net https://www.facebook.com https://staticxx.facebook.com; " +
 			"object-src 'none'; " +
 			"base-uri 'none';"
 	});
