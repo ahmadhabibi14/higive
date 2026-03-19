@@ -51,7 +51,10 @@
 </script>
 
 {#if $UNDER_CONSTRUCTION}
-	<Head title="Under Construction - HiGive" />
+	<Head
+		title="Under Construction - HiGive"
+		description="Website dalam penangguhan sementara hingga proses administrasi selesai."
+	/>
 	<UnderConstruction />
 {:else}
 	{@render children()}

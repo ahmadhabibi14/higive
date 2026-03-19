@@ -14,7 +14,9 @@
 				</div>
 				<div class="flex flex-col gap-0">
 					<h1 class="text-5xl md:text-6xl font-bold">Under Construction</h1>
-					<p class="text-xl">Website sedang dalam pengembangan</p>
+					<p class="text-xl">
+						Website dalam penangguhan sementara hingga proses administrasi selesai.
+					</p>
 				</div>
 			</div>
 		</main>
